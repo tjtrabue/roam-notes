@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       811C06F9-ED51-42DC-B5C5-DC08A67E6BDA
+:END:
+#+title: Scheme
+
+Another cool dialect of Lisp. Much smaller than Common Lisp, and mostly used for
+pedagogical purposes in universities. It is a functional programming language,
+unlike [[id:4615863D-F21D-4644-924C-C45AA7247AD6][Emacs Lisp]].
+
+* Resources
+  :PROPERTIES:
+  :ID:       52695355-775C-4058-A0D4-C1CF35A3093E
+  :ROAM_ALIASES: "Scheme Resources"
+  :END:

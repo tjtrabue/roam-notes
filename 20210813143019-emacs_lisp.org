@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       4615863D-F21D-4644-924C-C45AA7247AD6
+:END:
+#+title: Emacs Lisp
+
+Emacs Lisp is a very old but very powerful dialect of Lisp.
+
+* Resources
+  :PROPERTIES:
+  :ID:       B7E48584-38CA-441C-8149-E23DD0255D44
+  :ROAM_ALIASES: "Emacs Lisp Resources"
+  :END:

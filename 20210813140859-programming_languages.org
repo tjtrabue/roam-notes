@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       AF5A556D-FC77-40BB-B96D-137BD29CB2B6
+:END:
+#+title: Programming Languages
+
+Here are some great programming languages
+
+- [[id:4615863D-F21D-4644-924C-C45AA7247AD6][Emacs Lisp]]
+- [[id:811C06F9-ED51-42DC-B5C5-DC08A67E6BDA][Scheme]]
