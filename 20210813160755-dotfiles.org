@@ -1,0 +1,43 @@
+:PROPERTIES:
+:ID:       2647A529-F12B-4B4E-BEC3-2578019CBD29
+:END:
+#+title: Dotfiles
+
+These are notes surrounding my dotfiles repository.
+
+* Architecture
+  My dotfiles repository is a little different than what you're probably used to
+  seeing in a dotfiles project. For starters, it's quite a bit more complex in
+  terms of its file structure than the flat, single-directory structure most
+  people favor. It is also much more than a collection of configuration, or "rc"
+  files -- it is an entire development environment, but attempts to be as
+  non-opinionated as possible. The guiding principles behind its architecture
+  are as follows:
+
+  - Simple
+  - Modular
+  - Idempotent
+
+** Simple
+   Ironic as this may sound, the primary guiding principle behind my dotfiles is
+   simplicity. When multiple implementation methods are available, I favor the
+   simpler one. The entire project can be summed up as a collection of bash
+   scripts and shell functions, which are then sourced into the user's preferred
+   interactive shell.
+
+** Modular
+   I have made my =dotfiles= repository as extensible as possible. I do my best
+   to isolate each piece of functionality into a single function, and then reuse
+   that function whenever it is needed. It is easy to achieve this end in shell
+   scripting. The trade-off is that interactive shell sessions become a bit
+   bloated with functions, although I have not noticed a significant slow-down
+   due to this effect.
+
+** Idempotent (i.e., reproducible)
+   This one was a little harder to achieve. I have designed this repository to
+   result in the exact same effects when run on any compatible machine, with as
+   few side-effects as possible. Thus, if my current shell environment on my
+   Macbook contains a certain set of functions and profile layers, then I want
+   to be able to pull down my dotfiles repository on a brand new Linux computer,
+   run the install script, and then have the same environment as I had on my
+   Macbook.

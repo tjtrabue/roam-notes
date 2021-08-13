@@ -6,7 +6,4 @@
 Emacs Lisp is a very old but very powerful dialect of Lisp.
 
 * Resources
-  :PROPERTIES:
-  :ID:       B7E48584-38CA-441C-8149-E23DD0255D44
-  :ROAM_ALIASES: "Emacs Lisp Resources"
-  :END:
+  Thingies.

@@ -8,7 +8,3 @@ pedagogical purposes in universities. It is a functional programming language,
 unlike [[id:4615863D-F21D-4644-924C-C45AA7247AD6][Emacs Lisp]].
 
 * Resources
-  :PROPERTIES:
-  :ID:       52695355-775C-4058-A0D4-C1CF35A3093E
-  :ROAM_ALIASES: "Scheme Resources"
-  :END:
